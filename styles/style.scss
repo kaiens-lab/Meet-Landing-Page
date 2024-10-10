@@ -89,6 +89,11 @@ body {
         color: var(--white);
         border: none;
         border-radius: 29px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #71c0d4;
+        }
 
         span {
           opacity: 0.7;
@@ -102,6 +107,11 @@ body {
         color: var(--white);
         border: none;
         border-radius: 29px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #b18bdd;
+        }
       }
     }
   }
@@ -279,6 +289,10 @@ body {
         color: var(--white);
         border: none;
         border-radius: 29px;
+
+        &:hover {
+          background-color: #b18bdd;
+        }
 
         span {
           color: var(--purple-300);
