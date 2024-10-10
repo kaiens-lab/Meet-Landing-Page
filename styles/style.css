@@ -271,4 +271,100 @@ body {
   color: var(--purple-300);
 }
 
+@media screen and (max-width: 1180px) {
+  .hero-section {
+    width: 768px;
+    height: 761px;
+    padding: 1rem 0rem;
+  }
+  .hero-section .left-img {
+    left: -4%;
+  }
+  .hero-section .right-img {
+    top: 2%;
+    right: -4%;
+  }
+  .hero-section .hero-container {
+    position: absolute;
+    bottom: 10%;
+    height: 258px;
+  }
+  .hero-section .hero-container .hero-title {
+    height: 106px;
+  }
+  .hero-section .hero-container .hero-text {
+    margin: var(--spacing-300) 0px;
+    height: 48px;
+  }
+  .features-section {
+    width: 768px;
+    height: 759px;
+  }
+  .features-section .features-content {
+    max-width: 680px;
+  }
+  .features-section .picture-section {
+    width: 100%;
+    margin: var(--spacing-800) 0px;
+  }
+  .features-section .picture-section img {
+    width: 152px;
+    height: 160px;
+    border-radius: 8px;
+  }
+  .features-section .picture-section img:nth-child(1),
+  .features-section .picture-section img:nth-child(2),
+  .features-section .picture-section img:nth-child(3) {
+    margin-right: var(--spacing-200);
+  }
+  .features-section .features-description {
+    max-width: 504px;
+    height: 215px;
+  }
+  .features-section .features-description .heading-container {
+    height: 111px;
+  }
+  .features-section .features-description h3 {
+    font-size: 80%;
+  }
+  .features-section .features-description p {
+    margin-top: var(--spacing-400);
+    font-size: 0.875rem;
+  }
+  .experience-section {
+    width: 768px;
+    height: 428px;
+    position: relative;
+  }
+  .experience-section .footer-wrapper {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+  }
+  .experience-section-text-content {
+    margin-top: var(--spacing-1400);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 504px;
+    height: 192px;
+  }
+  .experience-section-text-content .slogan {
+    width: 100%;
+    font-size: 2rem;
+    margin-right: 0px;
+  }
+  .experience-section-text-content p {
+    margin-right: 0px;
+    font-weight: 200;
+    font-size: 0.9rem;
+  }
+  .experience-section-text-content .btn-container {
+    width: 256px;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
