@@ -16,8 +16,12 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+.container {
+  width: 100%;
+}
+
 .header {
-  max-width: 1440px;
+  width: 100%;
   height: 108px;
   display: flex;
   justify-content: center;
@@ -25,7 +29,7 @@ body {
 }
 
 .hero-section {
-  max-width: 1440px;
+  width: 100%;
   height: 488px;
   padding: 60px 0px;
   display: flex;
@@ -95,7 +99,7 @@ body {
 }
 
 .features-section {
-  max-width: 1440px;
+  width: 100%;
   height: 883px;
   display: flex;
   flex-direction: column;
@@ -137,7 +141,7 @@ body {
 }
 .features-section .picture-section img {
   width: 252px;
-  height: 256px;
+  height: 252px;
   border-radius: 8px;
 }
 .features-section .picture-section img:nth-child(1),
@@ -171,7 +175,7 @@ body {
 }
 
 .experience-section {
-  max-width: 1440px;
+  width: 100%;
   height: 420px;
   display: flex;
   flex-direction: column;
@@ -180,7 +184,7 @@ body {
   position: relative;
 }
 .experience-section .footer-wrapper {
-  max-width: 1440px;
+  width: 100%;
   height: 312px;
   position: absolute;
   bottom: 0;
@@ -189,6 +193,9 @@ body {
 }
 .experience-section .footer-wrapper img {
   opacity: 0.1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .experience-section .section-marker {
   position: absolute;
